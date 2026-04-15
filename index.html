@@ -4,13 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/programming.png" type="image/png">
+    <script src="https://kit.fontawesome.com/34d2718f8d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Monumentos do Mundo - Para Visitar</title>
 </head>
 
 <body>
     <header>
-        <nav>
+        <div class="logo">
+            <i class="fa-brands fa-d-and-d" aria-hidden="true"></i>
+        </div>
+        <nav class="menu">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Informações</a></li>
@@ -19,74 +24,118 @@
         </nav>
     </header>
 
-    <main>
-        <h1>Bem-vindo ao meu site!</h1>
-        <section class="container">
-            <div i="lista-item">
-                <img src="imagens/Coliseu-Unsplash.webp" alt="Coliseu">
-                <div class="content">
-                    <h2>Coliseu</h2>
-                    <p>O Coliseu é um anfiteatro romano localizado no centro de Roma, Itália. Ele é um dos maiores e
-                        mais famosos anfiteatros do mundo, conhecido por sua arquitetura impressionante e história
-                        fascinante. O Coliseu foi construído entre os anos 70 e 80 d.C. e podia acomodar cerca de 50.000
-                        espectadores. Ele era usado para uma variedade de eventos, incluindo lutas de gladiadores,
-                        batalhas navais simuladas e outros espetáculos públicos. O Coliseu é um símbolo icônico da Roma
-                        antiga e é uma das principais atrações turísticas da cidade.</p>
-                    <div class="buttons">
-                        <button>Saiba mais</button>
-                        <button>Comprar ingressos</button>
-                    </div>
+    <main class="container">
+        <section class="lista"><!-- início da seção lista -->
+
+            <article class="lista_item"> <!-- início da article01 -->
+                
+                <img src="imagens/colosseum-in-rome-.jpg" alt="Coliseu">
+                
+                <div class="conteudo"><!-- início da div conteudo -->
+                    <h2 class="titulo">Coliseu</h2>
+                    <p class="descricao">O Coliseu é um anfiteatro gladiatorial localizado em Roma, Itália. É uma das
+                        mais importantes obras do período imperial romano. O coliseu foi construído entre 70 e 80 d.C. e
+                        era usado para uma variedade de eventos, incluindo lutas de gladiadores, batalhas navais
+                        simuladas e outros espetáculos públicos. O Coliseu é um símbolo icônico da Roma antiga e é uma
+                        das principais atrações turísticas da cidade.</p>
+                </div><!-- fim da div conteudo -->
+
+                <div class="buttons"><!-- início da div buttons -->
+                    <a href="https://pt.wikipedia.org/wiki/Coliseu" target="_blank" class="btn-info">Saiba mais</a>
+                    <a href="https://www.cvc.com.br/?utm_source=google&utm_medium=cpc&utm_campaign=google-conversao-search-geral-institucional-nac-site&utm_content=geral-gen&gad_source=1&gad_campaignid=22109662001&gbraid=0AAAAADmOlH-cSIZhA4vkYC2s1HuV297Z7&gclid=Cj0KCQjwv-LOBhCdARIsAM5hdKfvG2gf1pMvp7UtxJFBsKfWwIg4kfzjg9ij0VEeeafblZ-GF6MzjPgaAiiFEALw_wcB"
+                        target="_blank" class="btn-primary">Acessar</a>
+                </div><!-- fim da div buttons -->
+                
+            </article><!-- fim da article01 -->
+
+            <article class="lista_item"> <!-- início da article02 -->
+                <img src="imagens/Estátua-da-Liberdade.jpg" alt="Estátua da Liberdade">
+                <div class="conteudo"><!-- início da div conteudo -->
+                    <h2 class="titulo">Estátua da Liberdade</h2>
+                    <p class="descricao">A Estátua da Liberdade é um símbolo icônico dos Estados Unidos, localizada
+                        na Ilha da Libertade em Nova York. Construída em 1886, a estátua foi um presente da França
+                        para os Estados Unidos e representa a liberdade e aprimorada democracia.</p>
+                </div><!-- fim da div conteudo -->
+
+                <div class="buttons"><!-- início da div buttons -->
+                    <a href="https://pt.wikipedia.org/wiki/Est%C3%A1tua_da_Liberdade" target="_blank"
+                        class="btn-info">Saiba mais</a>
+                    <a href="https://www.cvc.com.br/?utm_source=google&utm_medium=cpc&utm_campaign=google-conversao-search-geral-institucional-nac-site&utm_content=geral-gen&gad_source=1&gad_campaignid=22109662001&gbraid=0AAAAADmOlH-cSIZhA4vkYC2s1HuV297Z7&gclid=Cj0KCQjwv-LOBhCdARIsAM5hdKfvG2gf1pMvp7UtxJFBsKfWwIg4kfzjg9ij0VEeeafblZ-GF6MzjPgaAiiFEALw_wcB"
+                        target="_blank" class="btn-primary">Acessar</a>
+                </div><!-- fim da div buttons -->
+
+            </article><!-- fim da article02 -->
+
+            <article class="lista_item"> <!-- início da article03 -->
+                <img src="imagens/Muralha-da-China.jpg" alt="Muralha da China">
+                <div class="conteudo"><!-- início da div conteudo -->
+                    <h2 class="titulo">Muralha da China</h2>
+                    <p class="descricao">A Muralha da China é uma série de fortificações construídas ao longo de
+                        milhares de anos, principalmente durante os períodos da Dinastia Qin e Dinastia Ming. É uma
+                        das maiores obras de engenharia do mundo e é um símbolo icônico da China.</p>
+                </div><!-- fim da div conteudo -->
+
+                <div class="buttons"><!-- início da div buttons -->
+                    <a href="https://pt.wikipedia.org/wiki/Grande_Muralha_da_China" target="_blank"
+                        class="btn-info">Saiba mais</a>
+                    <a href="https://www.cvc.com.br/?utm_source=google&utm_medium=cpc&utm_campaign=google-conversao-search-geral-institucional-nac-site&utm_content=geral-gen&gad_source=1&gad_campaignid=22109662001&gbraid=0AAAAADmOlH-cSIZhA4vkYC2s1HuV297Z7&gclid=Cj0KCQjwv-LOBhCdARIsAM5hdKfvG2gf1pMvp7UtxJFBsKfWwIg4kfzjg9ij0VEeeafblZ-GF6MzjPgaAiiFEALw_wcB"
+                        target="_blank" class="btn-primary">Acessar</a>
+                </div><!-- fim da div buttons -->
+            </article><!-- fim da article03 -->
+
+            <article class="lista_item"> <!-- início da article04 -->
+                <img src="imagens/Taj_Mahal.jpg" alt="Taj Mahal">
+                <div class="conteudo"><!-- início da div conteudo -->
+                    <h2 class="titulo">Taj Mahal</h2>
+                    <p class="descricao">O Taj Mahal é um mausoléu localizado em Agra, Índia. Construído entre 1632
+                        e 1648, o Taj Mahal é considerado uma das obras de arquitetura mais belas do mundo e é um
+                        símbolo icônico da Índia.</p>
+                </div><!-- fim da div conteudo -->
+
+                <div class="buttons"><!-- início da div buttons -->
+                    <a href="https://pt.wikipedia.org/wiki/Taj_Mahal" target="_blank" class="btn-info">Saiba
+                        mais</a>
+                    <a href="https://www.cvc.com.br/?utm_source=google&utm_medium=cpc&utm_campaign=google-conversao-search-geral-institucional-nac-site&utm_content=geral-gen&gad_source=1&gad_campaignid=22109662001&gbraid=0AAAAADmOlH-cSIZhA4vkYC2s1HuV297Z7&gclid=Cj0KCQjwv-LOBhCdARIsAM5hdKfvG2gf1pMvp7UtxJFBsKfWwIg4kfzjg9ij0VEeeafblZ-GF6MzjPgaAiiFEALw_wcB"
+                        target="_blank" class="btn-primary">Acessar</a>
+                </div><!-- fim da div buttons -->
+
+            </article><!-- fim da article04 -->
+        </section><!-- fim da seção lista -->
+        <aside class="thumb">
+
+            <div class="thumb-item" role="button" aria-label="Ver Estátua da Liberdade">
+                <img src="imagens/Estátua-da-Liberdade.jpg" alt="Miniatura Estátua da Liberdade">
+                <div class="content-thumb">
+                    <h3>Nova York</h3>
+                    <p>Ícone da liberdade americana.</p>
                 </div>
             </div>
 
-            <div i="lista-item">
-                <img src="imagens/Estátua da liberdade.png" alt="Estátua da liberdade">
-                <div class="content">
-                    <h2>Estátua da Liberdade</h2>
-                    <p>A Estátua da Liberdade é um símbolo icônico dos Estados Unidos, localizada na Ilha da Liberdade
-                        em Nova York. Erguida em 1886, a estátua foi um presente dos franceses para os Estados Unidos e
-                        representa a liberdade e a democracia. A estátua é composta por uma mulher vestida com uma
-                        túnica que segura uma lanterna e um pedestal com uma inscrição que destaca os valores
-                        democráticos.</p>
-                    <div class="buttons">
-                        <button>Saiba mais</button>
-                        <button>Comprar ingressos</button>
-                    </div>
+            <div class="thumb-item" role="button" aria-label="Ver Muralha da China">
+                <img src="imagens/Muralha-da-China.jpg" alt="Miniatura Muralha da China">
+                <div class="content-thumb">
+                    <h3>China</h3>
+                    <p>Uma barreira milenar magnífica.</p>
                 </div>
-
-                <div i="lista-item">
-                    <img src="imagens/Muralha da China.png" alt="Muralha da China">
-                    <div class="content">
-                        <h2>Muralha da China</h2>
-                        <p>A Muralha da China é uma série de fortificações construídas ao longo de milhares de anos,
-                            principalmente durante os períodos das Dinastias Qin e Ming. Ela é uma das maiores obras de
-                            engenharia do mundo e é um símbolo icônico da cultura chinesa. A muralha foi construída para
-                            proteger o Império Chinês contra invasões de tribos nomadas do norte.</p>
-                        <div class="buttons">
-                            <button>Saiba mais</button>
-                            <button>Comprar ingressos</button>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div i="lista-item">
-                    <img src="imagens/size_960_16_9_taj-mahal7.webp" alt="Taj Mahal">
-                    <div class="content">
-                        <h2>Taj Mahal</h2>
-                        <p>O Taj Mahal é um mausoléu localizado em Agra, Índia. Construído entre 1632 e 1653 pelo imperador Shah Jahan, o Taj Mahal é considerado um dos monumentos mais belos do mundo. Ele foi construído como um mausoléu para a esposa de Shah Jahan, Mumtaz Mahal, e é um símbolo icônico da arquitetura mogol e da cultura indiana.</p>
-                        <div class="buttons">
-                            <button>Saiba mais</button>
-                            <button>Comprar ingressos</button>
-                        </div>
-                    </div>
-                </div>
-
             </div>
 
-        </section>
+            <div class="thumb-item" role="button" aria-label="Ver Taj Mahal">
+                <img src="imagens/Taj_Mahal.jpg" alt="Miniatura Taj Mahal">
+                <div class="content-thumb">
+                    <h3>Índia</h3>
+                    <p>Uma declaração de amor eterna.</p>
+                </div>
+            </div>
+
+            <div class="arrows">
+                <button class="back" aria-label="Slide anterior">&lt;</button>
+                <button class="next" aria-label="Próximo slide">&gt;</button>
+            </div>
+
+        </aside>
+
     </main>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
